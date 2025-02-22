@@ -1,5 +1,5 @@
 ##finding latitude and longitude from zipcode
-zipcodes=open("/Users/madeleinechen/Desktop/11th Grade/comp sci python/2024_Gaz_zcta_national.txt", "r")
+zipcodes=open("/Users/madeleinechen/Desktop/Madeleine Chen/11th Grade/comp sci python/2024_Gaz_zcta_national.txt", "r")
 
 n=int(input())
 for T in range(n):
@@ -19,7 +19,7 @@ for T in range(n):
 zipcodes.close()
 
 def zipcode(lat,long):
-    zipcodes=open("/Users/madeleinechen/Desktop/11th Grade/comp sci python/2024_Gaz_zcta_national.txt", "r")
+    zipcodes=open("/Users/madeleinechen/Desktop/Madeleine Chen/11th Grade/comp sci python/2024_Gaz_zcta_national.txt", "r")
 
     lat=float(lat)
     long=float(long)
